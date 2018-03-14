@@ -4,8 +4,7 @@ var splitedSentence = sentence.split(' ').join('').split('');
   var sentenceAsObject = {}; 
     for (var i = 0; i < splitedSentence.length; i++){ 
     var letter = splitedSentence[i];
-sentenceAsObject[letter] === undefined ? sentenceAsObject[letter]=[i] :
-sentenceAsObject[letter].push(i);
+sentenceAsObject[letter] === undefined ? sentenceAsObject[letter]=[i] : sentenceAsObject[letter].push(i);
   }return sentenceAsObject;
 }
 
