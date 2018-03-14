@@ -1,6 +1,6 @@
-#CountLetters
+##CountLetters
 
-
+#OBS: Don't forget to use the sentence within quotations marks 
 
 ## Use it!
 
